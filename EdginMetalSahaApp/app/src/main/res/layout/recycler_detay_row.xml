@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/recyclerviewBolum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginRight="70dp"
+        android:text="Bölüm"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/recyclerviewDispo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerviewBolum"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="70dp"
+        android:text="Dispo"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/deleteid"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/recyclerviewBolum"
+        android:layout_alignBottom="@+id/recyclerviewDispo"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_baseline_delete_24" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/recyclerviewDispo"
+        android:layout_marginTop="10dp"
+        android:background="#2DA8DF"
+        />
+
+</RelativeLayout>
